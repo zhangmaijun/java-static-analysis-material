@@ -13,6 +13,12 @@ Github： https://github.com/plume-oss/plume
 
 #### 2. Tabby
 
-也是使用静态分析框架 Soot 作为语义提取工具，将 class 文件转化为代码属性图。 并使用 Neo4j 图数据库来存储生成的代码属性图CPG
+也是使用静态分析框架 Soot 作为语义提取工具，将 class 文件转化为代码属性图。 并使用 Neo4j 图数据库来存储生成的代码属性图CPG。
 
 Github： https://github.com/wh1t3p1g/tabby
+
+#### 3. Franunhofer-AISEC/cpg
+
+支持 C/C++ 和 Java 的 CPG 解析，针对 Java 语言，使用 Java Parser 作为 AST 解析工具。
+
+Github：https://github.com/Fraunhofer-AISEC/cpg
